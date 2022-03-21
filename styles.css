@@ -26,6 +26,7 @@ input{
     /* margin-bottom: 5px; */
     margin-top: 20px;
     margin-left: 18px;
+    border-radius: 5px;
 }
 div.part-2{
     /* border: 2px solid blue; */
@@ -40,7 +41,7 @@ form{
     padding-bottom: 30px;
     border: none;
 }
-button{
+button.trial{
     width: 548px;
     /* margin-left: 18px; */
     margin: 0px 0px 20px;
