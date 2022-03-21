@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*/{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: poppins;
+    background-image: linear-gradient( hsla(0, 100%, 74%, 0.644),hsla(0, 100%, 74%, 0.644)), url(bg-intro-desktop.png);
+}
+div.text-box{
+    /* border: 2px solid yellow; */
+    width: 30%;
+    margin-top: 180px;
+    margin-left: 160px;
+    color: hsl(248, 32%, 49%);
+}
+h1{
+    font-size: 2.5rem;
+}
+p{
+    font-size: 1rem;
+}
+input{
+    height: 50px;
+    width: 500px;
+    /* margin-bottom: 5px; */
+    margin-top: 20px;
+    margin-left: 18px;
+}
+div.part-2{
+    /* border: 2px solid blue; */
+    height: 400px;
+    width: 40%;
+    position: absolute;
+    top: 80px;
+    left: 640px;
+}
+form{
+    background-color: black;
+    padding-bottom: 30px;
+    border: none;
+}
+button{
+    width: 548px;
+    /* margin-left: 18px; */
+    margin: 0px 0px 20px;
+    /* padding: 20px 70px; */
+    padding: 20px 30px;
+    background-color: hsl(248, 32%, 49%);
+    border: none;
+    color: white;
+    font-size: 1.2rem;
+}
+.claim{
+    background-color: hsl(154, 59%, 51%);
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-size: 1.2rem;
+}
+/* div.submit{
+    background-color: hsl(154, 59%, 51%); */
+}
